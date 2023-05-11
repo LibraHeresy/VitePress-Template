@@ -2,7 +2,7 @@
  * @Author: zhouyang
  * @Date: 2023-04-24 11:26:27
  * @LastEditors: zhouyang
- * @LastEditTime: 2023-05-11 11:47:43
+ * @LastEditTime: 2023-05-11 15:35:11
  * @FilePath: \vite-press-template\docs\.vitepress\theme\MyLayout.vue
  * @Desc: 描述
 -->
@@ -39,8 +39,8 @@ onMounted(() => {
               id: route.data.title, // 可选。默认为 location.href
               owner: "Author", // GitHub repository 所有者
               repo: "vite-press-template", // GitHub repository
-              clientID: "", // 自己的clientID
-              clientSecret: "", // 自己的clientSecret
+              clientID: "eb8b741a874f3d5d6f9a", // 自己的clientID
+              clientSecret: "311822ffdfc6233f45e218a8ebba560c15a218c8", // 自己的clientSecret
               admin: ["Author"], // GitHub repository 所有者
               labels: ["Gitalk"], // GitHub issue 的标签
               createIssueManually: true, //如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
